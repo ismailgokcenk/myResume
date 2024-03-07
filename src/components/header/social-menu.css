@@ -1,0 +1,24 @@
+.social-menu {
+	display: none;
+}
+
+@media (min-width: 700px) {
+	.social-menu {
+		display: block;
+	}
+}
+
+@media (min-width: 1000px) {
+	.social-menu {
+		order:2;
+	}
+}
+
+.social-menu ul {
+	display: flex;
+}
+
+.social-menu a {
+	display: inline-block;
+	padding: 10px;
+}
