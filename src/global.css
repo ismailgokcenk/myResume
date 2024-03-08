@@ -88,3 +88,113 @@ ol {
 	list-style-type: none;
 	padding: 0;
 }
+
+
+
+.container {
+	padding: 70px 20px;
+}
+
+@media(min-width: 500px){
+	.container {
+		padding: 70px 50px;
+	}
+}
+
+@media(min-width: 800px){
+	.container {
+		padding: 70px 100px;
+	}
+}
+
+@media(min-width: 1000px){
+	.container {
+		padding: 70px 150px;
+	}
+}
+
+
+.row {
+	display: flex;
+	gap: 50px;
+	flex-wrap: wrap;
+}
+
+.row > * {
+	flex: 1 1;
+}
+
+.text-green {
+	color: var(--color4);
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+.btn {
+	background: none;
+	border: 1px solid var(--color5);
+	color: var(--color5);
+	padding: 8px 40px;
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+	border-radius: 60px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	-ms-border-radius: 60px;
+	-o-border-radius: 60px;
+}
+
+.btn:hover {
+	border-color: var(--color2);
+	color: var(--color2);
+}
+
+.btn-outline {
+	border-color: var(--color4);
+	color: var(--color4);
+}
+
+.btn-outline:hover {
+	border-color: var(--color7);
+	color: var(--color7);
+}
+
+.btn-bg {
+	background-color: var(--color4);
+	border-color: var(--color4);
+	color: var(--color2);
+}
+
+.btn-bg:hover {
+	background-color: var(--color7);
+	border-color: var(--color7);
+	color: var(--color1);
+}
+
+.form-control {
+	width: 100%;
+	background-color: var(--color1);
+	color: var(--color5);
+	border: none;
+	padding: 7px 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.form-control:focus {
+	outline: 1px solid var(--color5);
+}
+
+
+main > section:nth-child(odd) {
+	background-color: var(--color3);
+}

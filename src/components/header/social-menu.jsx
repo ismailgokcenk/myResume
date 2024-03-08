@@ -1,5 +1,6 @@
 import React from "react";
 import "./social-menu.css";
+import { TfiLinkedin, TfiTwitter, TfiFacebook } from "react-icons/tfi";
 
 const SocialMenu = () => {
 	return (
@@ -11,7 +12,7 @@ const SocialMenu = () => {
 						target="_blank"
 						rel="no-opener no-referrer"
 					>
-						<i className="fa-brands fa-linkedin"></i>
+						<TfiLinkedin/>
 					</a>
 				</li>
 				<li>
@@ -20,7 +21,7 @@ const SocialMenu = () => {
 						target="_blank"
 						rel="no-opener no-referrer"
 					>
-						<i className="fa-brands fa-x-twitter"></i>
+						<TfiTwitter/>
 					</a>
 				</li>
 				<li>
@@ -29,7 +30,7 @@ const SocialMenu = () => {
 						target="_blank"
 						rel="no-opener no-referrer"
 					>
-						<i className="fa-brands fa-facebook"></i>
+						<TfiFacebook/>
 					</a>
 				</li>
 			</ul>
